@@ -1,0 +1,72 @@
+body{
+    background-image: url(jungle1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.container {  display: grid;
+    grid-template-columns: 0.9fr 0.6fr 1.7fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+  }
+  
+  .Header { grid-area: 1 / 1 / 2 / 4; }
+  
+  .Main { grid-area: 2 / 1 / 4 / 2; }
+  
+  .Donkey-Kong-Pic { grid-area: 1 / 1 / 2 / 2;
+border-style: solid;
+border-color: rgba(255, 255, 0, 0.836);
+mix-blend-mode: ;
+align-items: center;
+
+}
+p{
+color: black;
+} 
+
+p2{
+    color: white;
+    } 
+
+h1{
+color: black;
+}
+h2{
+    color: white;
+}
+
+li{ 
+    color: white;
+    text-align: center;
+
+}
+  .General-Info { grid-area: 1 / 2 / 2 / 4;
+    border-style: solid;
+border-color: rgba(255, 255, 0, 0.836);
+font-family: 'Fredoka One', cursive;
+
+}
+  
+  .Projects-and-skills { grid-area: 2 / 1 / 4 / 2; } 
+  
+  .Projects-and-Skills { grid-area: 2 / 1 / 4 / 3; 
+    border-style: solid;
+    border-color: rgba(255, 255, 0, 0.836);
+    font-family: 'Fredoka One', cursive;
+
+      
+}
+
+.projects {
+    color: white;
+}
+  .Work-history { grid-area: 2 / 3 / 4 / 4;
+    text-align: center;
+    border-style: solid;
+    border-color: rgba(255, 255, 0, 0.836);
+    font-family: 'Fredoka One', cursive;
+}
+  
